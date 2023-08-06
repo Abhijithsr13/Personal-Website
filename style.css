@@ -1,0 +1,94 @@
+.gradient-background {
+    background: linear-gradient(300deg, #1D5D9B ,#9AC5F4,navy );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+h1{
+    font-size: 110px;
+    color: black;
+    margin-bottom: 60px;
+    box-shadow: 10px 10px 10px  black;
+}
+h2{
+    font-size: 85px;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+ h3{
+    font-size: 60px;
+    font-family: serif;
+    margin-top:20px;
+    color: #000;
+    box-shadow: 0px 10px 5px black;
+     
+ }
+.heading{ 
+    display: flex;
+    justify-content:space-between;
+    font-size: 70px;
+    flex-wrap: wrap;
+}
+span{
+    color: navy;
+}
+.img{ height: 400px;
+    padding: 50px;
+}
+.img2{
+    height: 200px; padding-bottom:10px ;
+}
+.intro{
+    margin : 90px 0px 90px 0px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;   
+}
+p{
+    padding-left: 20px;
+    font-size: 40px;
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+}
+.htm{
+    box-shadow: 10px 10px 30px #3c00ff;
+    }
+.css{
+    box-shadow: 10px 10px 30px rgb(242, 255, 55);
+       
+    }
+ .cpp{
+     box-shadow: 10px 10px 30px red;
+    }
+.C{
+     box-shadow: 10px 10px 30px rgb(4, 248, 4);
+    }
+.java{
+     box-shadow: 10px 10px 30px lightcoral;    
+    }
+
+.skills > *{
+    height:200px;
+    width:200px;
+    display: inline-block;
+    margin: 38px;
+    background-color: black;
+   }
+a{
+    font-size: 35px;
+    
+}
