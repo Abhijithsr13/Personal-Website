@@ -21,6 +21,7 @@ body{
 .head{
     display: flex;
     flex-wrap: wrap;
+    margin:0px;
 }
 h1{
     font-size: 110px;
