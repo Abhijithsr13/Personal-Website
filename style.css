@@ -97,7 +97,7 @@ a{
     font-size: 35px;
     
 }
-@media (max-width:500px) {
+@media (max-width:700px) {
     .head {
         display: flex;
         flex-wrap: wrap;
