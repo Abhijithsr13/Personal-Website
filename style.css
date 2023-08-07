@@ -15,6 +15,9 @@
       background-position: 0% 50%;
     }
   }
+body{
+    margin:0px;
+}
 .head{
     display: flex;
     flex-wrap: wrap;
@@ -23,6 +26,7 @@ h1{
     font-size: 110px;
     color: black;
     font-family:  Bebas Neue;
+     font-weight: bold;
     margin-bottom: 60px;
     box-shadow: 10px 10px 10px  black;
 }
