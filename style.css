@@ -18,6 +18,7 @@
 .head{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 h1{
     font-size: 110px;
