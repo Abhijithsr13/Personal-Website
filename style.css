@@ -22,6 +22,7 @@
 h1{
     font-size: 110px;
     color: black;
+    font-family:  Bebas Neue;
     margin-bottom: 60px;
     box-shadow: 10px 10px 10px  black;
 }
@@ -96,3 +97,19 @@ a{
     font-size: 35px;
     
 }
+@media (max-width:500px) {
+    .head {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size:75px;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 55px;
+    }
+  }
